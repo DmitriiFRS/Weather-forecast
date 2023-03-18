@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css?family=Overpass:regular,700&display=swap&subset=cyrillic-ext" rel="stylesheet" />
+   <title>Weather</title>
+</head>
+<body>
+   <div class="wrapper">
+      <div class="weather__container">
+         <div class="weather__select-container">
+            <select name="select" class="weather__select">
+               <option selected value="0" class="weather__option">Ташкент, uz</option>
+               <option value="1" class="weather__option">Москва, ru</option>
+               <option value="2" class="weather__option">Янгиюль, uz</option>
+               <option value="3" class="weather__option">Лондон, uk</option>
+               <option value="4" class="weather__option">Нью-йорк, us</option>
+               <option value="5" class="weather__option">Саратов, ru</option>
+               <option value="6" class="weather__option">Кисловодск, ru</option>
+            </select>
+         </div>
+         <div class="weather__icon">
+            <img id="cloudy-icon" src="" alt="">
+         </div>
+         <div class="weather-main">
+            <div class="weather-main__date">Today, 12 September</div>
+            <p class="weather-main__temp"></p>
+            <div class="weather-main__cloudy"></div>
+            <div class="weather-main-bottom-container">
+               <div class="weather-main__wind-block">
+                  <div class="weather-main__wind-icon">
+                     <img src="icons/Wind.svg" alt="wind">
+                     <p class="weather-main__wind">Wind</p>
+                  </div>
+                  <div class="weather-main__divider">|</div>
+                  <div class="weather-main__speed"></div>
+               </div>
+               <div class="weather-main__humidity-block">
+                  <div class="weather-main__humidity-icon">
+                     <img src="icons/Hum.svg" alt="hum">
+                     <p class="weather-main__Humidity">Hum</p>
+                  </div>
+                  <div class="weather-main__divider">|</div>
+                  <div class="weather-main__percent"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>

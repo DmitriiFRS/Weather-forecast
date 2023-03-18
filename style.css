@@ -1,0 +1,102 @@
+@import 'reset.css';
+body {
+   font-family: 'Overpass';
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+}
+.weather__container {
+   width: 300px;
+   margin: 0 auto;
+   padding: 21px;
+   background: linear-gradient(192.05deg, #47BFDF 0%, #4A91FF 100%);
+}
+.weather__select-container {
+   background: transparent;
+}
+.weather__select {
+   background-color: transparent;
+   display: flex;
+   margin: 0 auto;
+   border: 1px solid #639ce7;
+   padding: 5px 5px;
+   font-size: 17px;
+}
+.weather__option {
+   font-size: 17px;
+   background: #000;
+   color: #FFFFFF;
+   margin: 50px 0;
+}
+.weather__icon {
+   min-height: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.weather-main {
+   background: rgba(255, 255, 255, 0.3);
+   padding: 12px 60px 18px 46px;
+}
+.weather-main__date {
+   font-size: 15px;
+   line-height: 16px;
+   text-shadow: -1.39839px 2.09758px 0.699193px rgba(0, 0, 0, 0.1);
+   color: #FFFFFF;
+   display: flex;
+   justify-content: center;
+}
+.weather-main__temp {
+   display: flex;
+   justify-content: center;
+   font-size: 69px;
+   line-height: 89px;
+   color: #FFFFFF;
+   text-shadow: -2.79677px 5.59354px 34.9597px rgba(0, 0, 0, 0.1);
+}
+.weather-main__cloudy {
+   font-size: 17px;
+   line-height: 21px;
+   color: #FFFFFF;
+   text-shadow: -1.39839px 2.09758px 0.699193px rgba(0, 0, 0, 0.1);
+   display: flex;
+   justify-content: center;
+   padding: 0 0 18px 0;
+   white-space: nowrap;
+}
+.weather-main-bottom-container {
+   display: flex;
+   flex-direction: column;
+   color: #FFFFFF;
+}
+.weather-main__wind-block {
+   display: flex;
+   padding: 0 0 12px 0;
+}
+.weather-main__wind-icon {
+   display: flex;
+}
+.weather-main__wind {
+   display: inline-block;
+   margin: 0 0 0 14px;
+}
+.weather-main__divider {
+   padding: 0 14px;
+}
+.weather-main__speed {
+}
+.weather-main__humidity-block {
+   display: flex;
+}
+.weather-main__humidity-icon {
+   display: flex;
+}
+.weather-main__Humidity {
+   margin: 0 0 0 16.5px;
+}
+.weather-main__percent {
+}
