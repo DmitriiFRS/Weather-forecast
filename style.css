@@ -39,6 +39,7 @@ body {
    display: inline-block;
    color: #000;
    font-size: 18px;
+   transform: rotate(0deg);
 }
 .weather__option {
    font-size: 17px;
@@ -101,8 +102,6 @@ body {
 .weather-main__divider {
    padding: 0 14px;
 }
-.weather-main__speed {
-}
 .weather-main__humidity-block {
    display: flex;
 }
@@ -111,6 +110,4 @@ body {
 }
 .weather-main__Humidity {
    margin: 0 0 0 16.5px;
-}
-.weather-main__percent {
 }
