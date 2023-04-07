@@ -4,6 +4,7 @@ const cities = {
    londonUK: 2643743,
    newYork: 5128581,
    saratov: 498677,
+   dubai: 292223,
 };
 const citiesArr = Object.values(cities);
 const month = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
